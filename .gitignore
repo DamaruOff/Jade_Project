@@ -1,10 +1,23 @@
-# Секретные ключи
-config.py
-
 # Файлы Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Временные файлы
 *.tmp
 *.log
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+logs/
+*.log
+
+# Базы данных (если появятся)
+*.db
+*.sqlite

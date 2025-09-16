@@ -5,7 +5,7 @@ from config import SERPER_API_KEY
 class SearchModule:
     def __init__(self):
         self.api_key = SERPER_API_KEY
-        self.api_url = "https://google.serper.dev/search"
+        self.api_url = "https://google.serper.dev/search
     
     def search(self, query):
         """Выполняет поиск в интернете через Serper API"""
