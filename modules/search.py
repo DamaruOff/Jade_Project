@@ -4,7 +4,7 @@ from config import SERPER_API_KEY
 
 class SearchModule:
     def __init__(self):
-        self.api_key = a6b73277ef06b6a131cb5233c336d4162d55259b
+        self.api_key = SERPER_API_KEY
         self.api_url = "https://google.serper.dev/search"
     
     def search(self, query):
